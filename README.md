@@ -8,7 +8,7 @@ For simplicity and error evaluation purposes, we focus on a GBM behavior of the 
 This work focuses on the following subjects:
 - Pricing of an UIC using the discrete Euler Scheme for the stock diffusion process.
 - Pricing of an UIC using the continuous Euler Scheme combined with Brownian diffusion bridges that will allow use to introduce a multiplicative correction term in the pricing formula:
-  $\mathbb{E}((\tilde{S}_T - K)_{+} \mathbbm{1}_{\stackunder{sup}{t \in [0:T]}\tilde{S}_t \leq D}) = \mathbb{E}((\bar{S}_T - K)_{+} \mathbbm{1}_{\stackunder{max}{0 \leq k \leq D} \bar{S}_{t_k} \leq D} \prod_{k = 0}^{N-1}(1 - exp(\frac{-2N}{T} \frac{(\bar{S}_{t_k} - D)(\bar{S}_{t_{k+1}} - D)}{\sigma^2(t_k, \bar{S}_{t_k})}))$
+  $$ \mathbb{E}((\tilde{S}_T - K)_{+} \mathbbm{1}_{\stackunder{sup}{t \in [0:T]}\tilde{S}_t \leq D}) = \mathbb{E}((\bar{S}_T - K)_{+} \mathbbm{1}_{\stackunder{max}{0 \leq k \leq D} \bar{S}_{t_k} \leq D} \prod_{k = 0}^{N-1}(1 - exp(\frac{-2N}{T} \frac{(\bar{S}_{t_k} - D)(\bar{S}_{t_{k+1}} - D)}{\sigma^2(t_k, \bar{S}_{t_k})})) $$
 
 
 Monte Carlo pricing (C++) of static/moving barrier options using Brownian diffusion Bridges and pre-conditioning/Importance sampling variance reduction techniques with an extension to the multi-step Richardson-Romberg extrapolation.
