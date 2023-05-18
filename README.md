@@ -12,3 +12,5 @@ This work focuses on the following subjects:
 
 
 Monte Carlo pricing (C++) of static/moving barrier options using Brownian diffusion Bridges and pre-conditioning/Importance sampling variance reduction techniques with an extension to the multi-step Richardson-Romberg extrapolation.
+
+$$\sqrt(x)$$
