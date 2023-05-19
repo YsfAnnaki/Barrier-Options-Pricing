@@ -1,9 +1,10 @@
 # Barrier-Options-Pricing
 [Youssef ANNAKI](https://www.linkedin.com/in/youssef-annaki-a91ab5192/)
+Project done from January 2023 to March 2023.
 ## Summary
 
 The aim of this work is to build a Monte Carlo pricer (C++) of Up-&-In Calls (UIC) and assess the performance and the accuracy of the pricing for different types of simulations of the diffusion process of the underlying asset (stocks in our case).
-For simplicity and error evaluation purposes, we focus on a GBM behavior of the stock price with constant volatility and interest rate paramters (this does not represent a limitation of the pricer as it can easly be generalized to more sophisticated stock price diffusion models: LV, SLV, SR-SLV,...). The focus on the Black-Scholes framework is mainly driven by the fact that we do have analytical formulas for barrier options prices which is very important in order to assess the accuracy of the developed pricing models.
+For simplicity and error evaluation purposes, we focus on a GBM behaviour of the stock price with constant volatility and interest rate paramters (this does not represent a limitation of the pricer as it can easly be generalized to more sophisticated stock price diffusion models: LV, LSV, SR-LSV,...). The focus on the Black-Scholes framework is mainly driven by the fact that we do have analytical formulas for barrier options prices in the B&S space, which is very important in order to assess the accuracy of the developed pricing models.
 
 This work focuses on the following subjects:
 - Pricing an UIC using the price of an UOC and the Put-Call parity applied to barrier options.
