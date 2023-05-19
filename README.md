@@ -1,6 +1,7 @@
 # Barrier-Options-Pricing
 [Youssef ANNAKI](https://www.linkedin.com/in/youssef-annaki-a91ab5192/)
-Project done from January 2023 to March 2023.
+
+Project done from January 2022 to March 2022.
 ## Summary
 
 The aim of this work is to build a Monte Carlo pricer (C++) of Up-&-In Calls (UIC) and assess the performance and the accuracy of the pricing for different types of simulations of the diffusion process of the underlying asset (stocks in our case).
