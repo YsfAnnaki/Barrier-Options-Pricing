@@ -29,6 +29,9 @@ This work focuses on the following subjects:
 ### Richardson-Romberg extrapolation (3 levels extrapolation)
 ![image](https://github.com/YsfAnnaki/Barrier-Options-Pricing/assets/134018406/0630ef3d-8bba-4319-b89a-1e983f5e33aa)
 
+
+More details regarding the practical convergence rates findings can be found in the project report.
+
 ##
 
 For any information, feedback or questions, please [Contact me](mailto:annaki.youssef@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
